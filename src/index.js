@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import Sobre from './pages/Sobre';
 import OSPage from './pages/OSPage';
+import CaixaPage from './pages/CaixaPage';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -13,6 +14,7 @@ ReactDOM.render(
       <Route path="/" exact={true} component={App} />
       <Route path="/sobre" component={Sobre} />
       <Route path="/ordem-de-servicos" component={OSPage} />
+      <Route path="/caixa" component={CaixaPage} />
     </Switch>
   </BrowserRouter>
   , document.getElementById('root'));

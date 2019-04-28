@@ -1,0 +1,5 @@
+const caixa = [];
+
+export {
+  caixa
+}

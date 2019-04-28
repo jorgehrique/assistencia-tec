@@ -1,24 +1,24 @@
-const OSList = [
+const array = [
   {
-    id: 13,
+    id: 1,
     nome: 'joão da silva',
     produto: 'j7 prime',
     status: 'orçamento'
   },
   {
-    id: 14,
+    id: 2,
     nome: 'maria da silva',
     produto: 'iphone 7 ux',
     status: 'orçamento'
   },
   {
-    id: 15,
+    id: 3,
     nome: 'joão da silva',
     produto: 'ziomi mi prime',
     status: 'orçamento'
   },
   {
-    id: 16,
+    id: 4,
     nome: 'joão da silva',
     produto: 'galaxy prime 2',
     status: 'orçamento'
@@ -27,6 +27,13 @@ const OSList = [
 
 const OSStatus = ['Aberto', 'Orçamento', 'Fechado'];
 
+const getAll = () => {
+  return array;
+}
+const add = ordem => {
+  array.push(ordem);
+}
+
 export {
-  OSList, OSStatus
+  OSStatus, getAll, add
 }
