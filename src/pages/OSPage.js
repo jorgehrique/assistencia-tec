@@ -35,7 +35,10 @@ export default class OSPage extends Component {
         </select><br />
         Produto: <input type='text' name='produto' /><br />
         Identificador (imei): <input type='text' name='identificador' /><br />
-        Data da Entrada: <input type='date' name='identificador' /><br />
+        Data da Entrada: <input type='date' name='dataentrada' /><br />
+        Descrição do problema: <br /><textarea name='problema'></textarea><br />
+        Laudo Técnico: <br /><textarea name='laudo'></textarea>
+
       </div>
     )
   }
